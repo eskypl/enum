@@ -1,6 +1,8 @@
 PHP Enum implementation
 =======================
 
+[![Build Status](https://travis-ci.org/eskypl/enum.svg?branch=master)](https://travis-ci.org/eskypl/enum)
+
 ##Documentation
 
 ### construct

@@ -89,7 +89,7 @@ class Enum
      */
     private static function validateConstants($className, array $constants)
     {
-        $values = [];
+        $values = array();
         foreach($constants as $value) {
             if (in_array($value, $values)) {
                 throw new \RuntimeException('Duplicated constant value in enum class '.$className.': '.$value);
