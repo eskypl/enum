@@ -19,6 +19,19 @@ class Enum
         $this->value = $value;
     }
 
+    /**
+     * @param $name
+     * @return \static
+     */
+    public static function __callStatic($name, $arguments)
+    {
+        return self::createFromConstantName($name);
+    }
+
+    /**
+     * @param $value
+     * @return bool
+     */
     public function isEqual($value)
     {
         if ($value instanceof self) {

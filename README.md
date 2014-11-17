@@ -10,6 +10,7 @@ PHP Enum implementation
 ```php
 $type = new Type(Type::BASIC);
 $type = Type::createFromConstantName('BASIC');
+$type = Type::BASIC();
 
 new Type(5); // InvalidArgumentException
 ```
