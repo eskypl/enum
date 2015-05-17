@@ -44,7 +44,6 @@ class Enum
     /**
      * @param $name
      * @throws \Exception
-     * @internal param mixed $value
      * @return \static
      */
     public static function createFromConstantName($name)
